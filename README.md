@@ -17,11 +17,11 @@ This C program is a network discovery tool that identifies active devices on a l
 
     * **With libpcap:**
         ```bash
-        gcc network_scanner.c -o network_scanner -lpcap -pthread
+        gcc Scan.C -o network_scanner -lpcap -pthread
         ```
     * **Without libpcap:**
         ```bash
-        gcc network_scanner.c -o network_scanner -pthread
+        gcc Scan.C -o network_scanner -pthread
         ```
 
 3.  **Ensure you have root privileges to run the program.**
