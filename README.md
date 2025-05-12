@@ -5,6 +5,7 @@
 This C program is a network discovery tool that identifies active devices on a local network. It uses ARP (Address Resolution Protocol) requests to find devices and retrieves their IP and MAC addresses.
 
 
+
 ## Requirements
 * **Root Privileges**
 * **libpcap** 
